@@ -195,6 +195,10 @@ a:visited {
   gap: 2rem;
 }
 
+.info_mail a {
+  color: #EE3250;
+}
+
 .info_social {
   width: 50%;
   display: flex;
