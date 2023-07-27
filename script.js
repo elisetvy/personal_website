@@ -30,16 +30,15 @@ window.addEventListener('scroll', function () {
     backToTop.style.color = 'white';
     logo.style.backgroundColor = 'white';
     logo.style.color = '#EE3250';
-
   }
 });
 
-let photo = document.querySelector('.photo');
+const photo = document.querySelector('.photo');
 
 photo.addEventListener('mouseover', function () {
   photo.style.zIndex = '9997';
 });
 
 photo.addEventListener('mouseout', function () {
-  photo.style.zIndex = '-9999';
+  photo.style.zIndex = '0';
 });
