@@ -104,7 +104,7 @@ a:visited {
 
 .text_name {
   color: white;
-  font-size: min(12rem, 19.5vw);
+  font-size: min(10.5rem, 19.5vw);
   text-align: center;
 }
 
@@ -112,15 +112,15 @@ a:visited {
   margin-top: -0.25em;
   color: #EE3250;
   -webkit-text-stroke: 0.125rem white;
-  font-size: min(9.5rem, 15.5vw);
+  font-size: min(8.25rem, 15.5vw);
   text-align: center;
 }
 
 .landing_photo img {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -60%);
   max-height: 72.5vh;
   max-width: 85vw;
 }
